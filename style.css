@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --brand: #FF5A1F; }
+body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+h1 { font-size: 40px; line-height: 1.1; margin-bottom: 4px; }
+h1 span { background: linear-gradient(135deg, #FF8C33, #FF4D1F); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { margin-top: 36px; }
+a { color: var(--brand); }
+.muted { opacity: .65; }
+nav { margin-bottom: 32px; }
+nav a { margin-right: 16px; font-weight: 600; text-decoration: none; }
